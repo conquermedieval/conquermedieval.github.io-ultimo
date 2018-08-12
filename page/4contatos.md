@@ -11,6 +11,13 @@ type: page
 
 ## Nilsonlinux
 
-
+<div>
+	<DIV>
+	
+</DIV>
   <div class="large">
     <iframe src="{{site.contact_url}}">Loading...</iframe>
+
+## Comentários
+
+{% include comments.html %}

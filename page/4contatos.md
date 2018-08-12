@@ -12,7 +12,9 @@ type: page
 ## Nilsonlinux
 
 <iframe src="https://githubbadge.appspot.com/Nilsonlinux" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
-
+<div class="page clearfix">
+    <div class="left">
+    	
 <div class="col-s12">
   <div class="icontain">
     <iframe src="{{site.contact_url}}">Loading...</iframe>

@@ -9,7 +9,7 @@
 title: NilsonlinuX
 brief-intro: BloG
 baseurl: "" # selcione a pasta do seu site como /blog ou "" = pasta raiz (padrão)
-url: "https://conquermedieval.github.io" # the base hostname & protocol for your site
+url: "https://nilsonlinux.github.io" # the base hostname & protocol for your site
 
 permalink: /:day/:month/:year/:title/
 
@@ -18,16 +18,17 @@ twitter_username: nilsonlinux
 facebook_username: nilsonlinux
 github_username:  Nilsonlinux
 email: nilsonlinux@gmail.com
+contact_url: https://goo.gl/forms/wrj7MU1tHLey0MUG2
 google-plus_username: +Nilsonlinux
 zhihu_username: 
 linkedIn_username: 
 dribbble_username:
 
-description_footer: Descrição de seu site no rodaopé aqui！
+description_footer: Nilsonlinux @copy！
 
 # comments
 # two ways to comment, only choose one, and use your own short name
-duoshuo_shortname: #hygblog
+duoshuo_shortname: #NilsonblogID
 disqus_shortname: nilsonlinux #seu usuário no disqus para ativar comentários
 
 # estatístiscas para análise de seu site (analytics)

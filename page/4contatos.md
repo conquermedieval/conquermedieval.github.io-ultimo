@@ -1,6 +1,16 @@
 ---
-layout: default
+layout: page
+title: Contatos
+permalink: /contatos/
+icon: user
+type: page
 ---
+
+* content
+{:toc}
+
+## Nilsonlinux
+
 <div class="col-s12">
   <div class="icontain">
     <iframe src="{{site.contact_url}}">Loading...</iframe>

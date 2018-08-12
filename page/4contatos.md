@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Contatos
 permalink: /contatos/
 icon: user

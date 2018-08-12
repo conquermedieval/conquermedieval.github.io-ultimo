@@ -12,5 +12,5 @@ type: page
 ## Nilsonlinux
 
 
-  <div class="">
+  <div class="large">
     <iframe src="{{site.contact_url}}">Loading...</iframe>

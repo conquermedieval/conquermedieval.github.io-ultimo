@@ -1,11 +1,8 @@
 ---
 layout: default
-title: Contatos
-permalink: /contatos/
-icon: user
-type: page
 ---
-
-<iframe src="{{site.contact_url}} name="content" width="820" marginwidth="0" height="260" marginheight="0" align="top" scrolling="no" frameborder="0" hspace="0" vspace="0" allowtransparency="true" application="true"> </iframe>
+<div class="col-s12">
+  <div class="icontain">
+    <iframe src="{{site.contact_url}}">Loading...</iframe>
   </div>
 </div>

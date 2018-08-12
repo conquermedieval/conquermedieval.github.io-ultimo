@@ -13,8 +13,8 @@ type: page
 
 <iframe src="https://githubbadge.appspot.com/Nilsonlinux" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
 
-Eu sou Nilsonlinux. Blogueiro. Trazendo o melhor pra você.
-Este site possue algumas modificações em se tratando ao seu site original, As páginas foram traduzidas para o portugês-BR. Eu adicionei uma página de pesquisa para postagens.
+Eu sou Nilsonlinux. Trazendo o melhor pra você.
+Este site possue algumas modificações em se tratando ao seu site original, As páginas foram traduzidas para o portugês-BR. Foi adicionado uma página de pesquisa para postagens.
 
 ## Contatos
 
@@ -25,6 +25,6 @@ Este site possue algumas modificações em se tratando ao seu site original, As 
 * [Twitter](https://twitter.com/nilsonlinux)
 
 
-## Comments
+## Comentários
 
 {% include comments.html %}

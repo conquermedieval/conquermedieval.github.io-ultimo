@@ -5,7 +5,7 @@ permalink: /contatos/
 icon: user
 type: page
 ---
-<script>
-    <iframe src="{{site.contact_url}}">Loading...</iframe>
+
+<iframe src="{{site.contact_url}} name="content" width="820" marginwidth="0" height="260" marginheight="0" align="top" scrolling="no" frameborder="0" hspace="0" vspace="0" allowtransparency="true" application="true"> </iframe>
   </div>
 </div>

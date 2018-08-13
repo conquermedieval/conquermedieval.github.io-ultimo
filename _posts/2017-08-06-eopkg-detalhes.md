@@ -2,8 +2,8 @@
 layout: post
 title:  "eopkg detalhes"
 date:   2018-08-06 15:14:54
-categories: Linux
-tags: solus help
+categories: Linux distribuição
+tags: solus bash terminal
 author: Nilsonlinux
 ---
 
@@ -27,7 +27,7 @@ sudo eopkg install packagename
 sudo eopkg install gnome-documents gnome-music
 ```
 
-## > Reinstalando Software
+##  Reinstalando Software
 Você pode reinstalar um ou mais pacotes usando:
 ```
 sudo eopkg install --reinstall packagename
@@ -54,7 +54,7 @@ sudo eopkg info packagename
 ```
 sudo eopkg info gnome-documents
 ```
-## > Atualizando
+##  Atualizando
 Você pode atualizar seu sistema usando:
 ```
 sudo eopkg upgrade

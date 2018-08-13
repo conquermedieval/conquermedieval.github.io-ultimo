@@ -7,8 +7,10 @@ tags: Instalação
 author: Nilsonlinux
 ---
 
-Instalação e Configuração do Arch Linux  
-O Arch Linux é considerada para usuários mais avançados, por conta de sua filosofia de desenvolvimento. Além disso, o Arch Linux é simples, flexível e considerada UNIX-like.  
+* content
+{:toc}
+
+## O Arch Linux é considerada para usuários mais avançados, por conta de sua filosofia de desenvolvimento. Além disso, o Arch Linux é simples, flexível e considerada UNIX-like.  
 Site Arch Linux: www.archlinux.org  
 
 
@@ -26,7 +28,7 @@ Você já está logado como # (root)
 
 ################ ARCH-LINUX ##############  
 
-##  1- Mudar teclado para abnt2 (PT-BR)  
+## 1- Mudar teclado para abnt2 (PT-BR)  
 ```
 loadkeys br-abnt2  
 ```   
@@ -76,7 +78,7 @@ ping -c 3 www.google.com
 dmesg | grep sd  
 ```  
 
-##  9- Configurar as partições no disco ( No meu caso, usei um disco de 20GB)  
+## 9- Configurar as partições no disco ( No meu caso, usei um disco de 20GB)  
 ```
 cfdisk /dev/sda  
 ```  
@@ -85,12 +87,12 @@ cfdisk /dev/sda
 sda1 * 9G /  
 sda2 1G swap  
 sda3 10G /home  
-10- Escrever/Write as mudanças nas partições.  
+## 10- Escrever/Write as mudanças nas partições.  
 
 Escrever/Write — Sim/Yes  
 Quit/Sair  
 
-##  11- Para formatar as partições com um sistema de arquivos ext4:  
+## 11- Para formatar as partições com um sistema de arquivos ext4:  
 ```
 mkfs.ext4 /dev/sda1  
 mkfs.ext4 /dev/sda3  
@@ -128,7 +130,7 @@ mount /dev/sdaX /mnt/boot
 lsblk /dev/sda  
 ```  
 
-##  17- Instalar o sistema no diretório sda  
+## 17- Instalar o sistema no diretório sda  
 ```
 pacstrap /mnt base base-devel
 ```  
@@ -229,7 +231,7 @@ nano /etc/hosts
 pacman -S sudo bash-completion
 ```  
 
-##  33- Baixar e instalar o GRUB no computador.  
+## 33- Baixar e instalar o GRUB no computador.  
 (BIOS)  
 ```
 pacman -S grub  
@@ -299,7 +301,7 @@ pacman -S xf86-input-synaptics
 
 42- Sair do modo chroot (ctrl+d ou exit), voltamos para o CD.  
 
-##  43- Desmontar as partições.  
+## 43- Desmontar as partições.  
 ```
 umount /mnt/home  
 umount /mnt
@@ -350,7 +352,7 @@ sudo pacman -S pavucontrol alsa-firmware alsa-utils alsa-plugins pulseaudio-alsa
 
 4- Depois de instalar o servidor X você precisa de um ambiente de Desktop ou um Gerenciador de janelas para fazer seus trabalhos com isso!  
 
-##  Nota: Instalar pacotes de grupo Extra é opcional!  
+## Nota: Instalar pacotes de grupo Extra é opcional!  
 [Instalar xfce4 Desktop Environment]  
 ```
 $ sudo pacman -S xfce4 xfce4-goodies
@@ -396,7 +398,7 @@ $ sudo pacman -S lxqt
 sudo pacman -S xfce4 xfce4-goodies
 ```  
 
-##  Instalação Gerenciador de exibição LightDM no Arch-Linux  
+## Instalação Gerenciador de exibição LightDM no Arch-Linux  
 
 6- Existem muitos do Gerenciador de exibição para usar como XDM, slim e etc… mas meu favorito é lightdm porque é rápido e personalizável.  
 
@@ -530,7 +532,7 @@ sudo systemctl enable bluetooth && sudo systemctl start bluetooth
 
 Feito!  
 
-##  6- AUR Repo:  
+## 6- AUR Repo:  
 
 Alguns pacotes tais como Kazam, i3blocks e etc não podem ser encontrados no repositórios Main, para nós deve instalá-los de AUR e para fazer também precisamos adicionar endereço AUR no final do arquivo /etc/pacman.conf.  
 

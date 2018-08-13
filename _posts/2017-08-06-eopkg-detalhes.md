@@ -7,6 +7,9 @@ tags: solus bash terminal
 author: Nilsonlinux
 ---
 
+* content
+{:toc}
+
 O Solus usa o sistema de gerenciamento de pacotes eopkg para entregar software ao usuário final. 
 Abaixo estão alguns comandos básicos para usar o eopkg.
 
@@ -27,7 +30,7 @@ sudo eopkg install packagename
 sudo eopkg install gnome-documents gnome-music
 ```
 
-##  Reinstalando Software
+## Reinstalando Software
 Você pode reinstalar um ou mais pacotes usando:
 ```
 sudo eopkg install --reinstall packagename
@@ -54,7 +57,7 @@ sudo eopkg info packagename
 ```
 sudo eopkg info gnome-documents
 ```
-##  Atualizando
+## Atualizando
 Você pode atualizar seu sistema usando:
 ```
 sudo eopkg upgrade

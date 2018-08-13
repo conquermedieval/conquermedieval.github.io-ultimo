@@ -7,7 +7,10 @@ tags: solus help
 author: Nilsonlinux
 ---
 
-The Budgie Desktop a modern desktop designed to keep out the way of the user. It features heavy integration with the GNOME stack in order for an enhanced experience.
+* content
+{:toc}
+
+## The Budgie Desktop a modern desktop designed to keep out the way of the user. It features heavy integration with the GNOME stack in order for an enhanced experience.
 
 
 
@@ -26,7 +29,7 @@ IRC: `#budgie-desktop-dev` / `#Solus-Dev` on irc.freenode.net
 Re-merge into the Solus Project
 ===============================
 
-As of May 20th, 2018, the Budgie Desktop project has been merged back into the Solus Project umbrella, making it a distinct Solus project once more.
+## As of May 20th, 2018, the Budgie Desktop project has been merged back into the Solus Project umbrella, making it a distinct Solus project once more.
 Contributions from all distributions, projects and individuals are welcome provided they add value and are of sufficient quality. We're happy to discuss
 test pull requests, which should be appropriately labeled as being `Request For Comment` `[RFC]`.
 

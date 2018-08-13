@@ -9,7 +9,7 @@
 title: NilsonlinuX
 brief-intro: BloG
 baseurl: "" # selcione a pasta do seu site como /blog ou "" = pasta raiz (padrão)
-url: "https://nilsonlinux.github.io" # the base hostname & protocol for your site
+url: "https://conquermedieval.github.io" # the base hostname & protocol for your site
 
 permalink: /:day/:month/:year/:title/
 

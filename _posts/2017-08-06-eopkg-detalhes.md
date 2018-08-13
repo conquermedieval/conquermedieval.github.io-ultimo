@@ -12,8 +12,13 @@ Abaixo estão alguns comandos básicos para usar o eopkg.
 
 ## Noções básicas de gerenciamento de pacotes.
 
-> Instalando Software  
+Instalando Software  
 Você pode instalar um ou mais pacotes usando:
+
+
+
+
+
 ```
 sudo eopkg install packagename
 ```
@@ -21,10 +26,6 @@ sudo eopkg install packagename
 ```
 sudo eopkg install gnome-documents gnome-music
 ```
-
-
-
-
 
 ## > Reinstalando Software
 Você pode reinstalar um ou mais pacotes usando:
